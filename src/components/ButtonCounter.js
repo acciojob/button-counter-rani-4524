@@ -9,7 +9,7 @@ const ButtonCounter = () => {
     }
   return (
     <div>
-      <p>Button cliked {count} times</p>
+      <p>Button clicked {count} times</p>
       <button onClick={handleButtonClick}>Click Me</button>
     </div>
   )
